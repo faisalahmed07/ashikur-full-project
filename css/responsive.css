@@ -1,0 +1,453 @@
+@media (max-width:991px) {
+    .button{
+        padding:  8px 20px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+    .button.outline{
+        padding: 8px 7px;
+    }
+
+    .banner .banner-cnt h4{
+        font-size: 15px;
+    }
+
+    .banner .banner-cnt h4 svg{
+        font-size: 16px;
+        height: 16px;
+    }
+
+    .banner .banner-cnt h2{
+        font-size: 34px;
+    }
+
+    .banner .banner-img img{
+        max-width: 100%;
+    }
+
+    .icon {
+        align-items: center;
+    }
+
+   .social ul li a i {
+        margin-top:12px ;
+    }
+
+}
+
+
+/* about sect */
+
+@media (min-width:320px) and (max-width: 991px){
+    #about .about_img img{
+        max-width: 100%;
+        transform: scalex(-1);
+    }
+
+    .about_cnt{
+        padding-top: 20px;
+    }
+
+    .about{
+        height: 800px;
+    }
+
+    .about a{
+        margin: auto;
+    }
+}
+
+/* about sect end */
+/* work sect */
+@media (min-width:320px) and (max-width: 991px){
+
+.work-card{
+    margin-top: 30px;
+    height: 220px;
+}
+
+.work-card span img{
+    left: 35px;
+}
+
+}
+
+/* work sect */
+
+/* branding sect */
+
+@media (min-width:320px) and (max-width: 991px){
+    #branding .brand-img img{
+        max-width: 100%;
+
+    }
+
+    #branding .brand-cnt h3{
+    font-size: 24px;
+    }
+    #branding .brand-cnt{
+        margin-left: -60px;
+        margin-top: 20px;
+    }
+
+    #branding .brand-cnt p{
+        font-size: 14px;
+    }
+    #branding .brand-cnt a{
+        border: none;
+        font-size:14px ;
+        padding: 10px 14px;
+    }
+
+    #branding .brand-cnt span img{
+        top: -30px;
+        right: -5px;
+        width: 38px;
+        height: 41px;
+    }
+
+    .bgall-cnt{
+        height: 545px;
+    }
+
+    
+
+
+}
+
+
+/* branding sect end */
+
+/* help resposive css  */
+@media (min-width:320px) and (max-width: 991px){
+    .help-cnt h2{
+        font-size: 24px;
+    }
+
+    .help-cnt p{
+        font-size: 15px;
+    }
+    .help-cnt{
+        text-align: left;
+        margin-bottom: -150px;
+    }
+
+    .help-cnt #list1 h3,
+    #list2 h3{
+        font-size: 24px;
+    }
+
+    .help-cnt #list1 p,
+    #list2 p{
+        font-size: 10px;
+    }
+
+}
+
+
+
+/* help resposive css ends */
+
+
+
+/* work experience  */
+
+
+@media (min-width:320px) and (max-width: 991px){
+
+    .experience h3{
+        padding-top: 100px;
+        justify-content: center;
+        font-size: 25px;
+        
+    }
+
+
+    .experience-icon{
+        border: none;
+        padding-left: 30px;
+        height: 10px;
+    }
+
+
+    .experience-card{
+        border-left: 2px dashed #717171;
+        margin-left: -80px;
+
+
+    }
+
+
+    .experience-icon::before{
+        left: -5px;
+        top: 0;
+    }
+
+    .experience-icon::after{
+        left: 2px;
+        top: 7px;
+    }
+
+    .experience-cnt{
+        margin-left: -40px;
+        text-align: left;
+    }
+
+}
+
+
+
+/* work experience end */
+
+
+/* expert areas */
+
+@media (min-width:320px) and (max-width: 991px){
+    .expert h3{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .expert p{
+        font-size: 15px;
+    }
+
+    .expert{
+        padding-top: 340px;
+    }
+
+    .expert .skill_card h4{
+       margin-left: -299px;
+        
+    }
+
+
+    .expert .education-card h4{
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+
+
+
+
+
+/* expert areas end */
+
+/* services sect  */
+
+@media (min-width:320px) and (max-width: 991px){
+    .services .services-cnt h3{
+        font-size: 24px;
+    }
+
+    .services .services-cnt p{
+        font-size: 15px;
+
+    }
+
+    .services .services-cnt {
+        text-align: left;
+        
+    }
+
+    .services{
+       margin-top: 500px;
+        height: 1200px;
+    }
+
+    .services .service-card{
+        height: 200px;
+        margin-bottom: 100px;
+        background-color: #fcc634;
+        color: white;
+    }
+
+   
+}
+
+
+
+/* services sect end */
+
+
+/* feedback sect css  */
+.feedback .head{
+    line-height: 41px;
+    font-size: 24px;
+}
+
+.feedback-img img{
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.feedback-cnt img{
+    padding-top: 19px;
+}
+/* feedback sect css end */
+
+
+/* blog sect css */  
+@media (min-width:320px) and (max-width: 991px){
+
+.blog .head{
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: -50px;
+}
+
+.blog .blog-img img{
+    width: 163px;
+    height: 153px;
+
+}
+
+.blog .blog-card  i{
+    width: 10px;
+    height: 11px;
+
+}
+
+
+.blog .blog-card .blog-upper-cnt {
+    font-size: 10px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.blog .blog-card .blog-down-cnt{
+    padding-left: 18px;
+}
+
+.blog .blog-card .blog-down-cnt h5{
+    font-size: 13px;
+    margin-top: -20px;
+}
+
+.blog .blog-card .blog-down-cnt a{
+    margin-top: -60px;
+}
+
+}
+
+
+
+/* blog sect css end */ 
+
+
+
+/* from sect  */
+@media (min-width:320px) and (max-width: 991px){
+    .from .from-cnt h3{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .from .from-cnt{
+        margin-top: -40px;
+    
+    }
+
+    .from .from-cnt h2{
+        font-size: 20px;
+    }
+    .from .from-cnt p{
+        font-size: 14px;
+    }
+
+    .from .from-main{
+        height: 47px;
+        width: 262px;
+        margin-left: 80px;
+        margin-top: -3px;
+        position: relative;
+    }
+
+    .from .from-main .from-main-button{
+        height: 47px;
+        font-size: 12px;
+        z-index: 11   ;
+    }
+    .from .from-main .from-main-cnt{
+        font-size: 14px;
+    }
+
+    .from .from-main .from-main-cnt p{
+        margin-top: -20px;
+    }
+
+    .from .from-main .from-main-button p{
+        margin-top: -25px;
+        margin-left: -20px;
+    }
+
+    .from .container{
+        height: 275px;
+    }
+
+    
+    .from .from-main-cnt input{
+        width: 200px;
+        position: absolute;
+        top: 11px;
+    }
+   
+
+
+
+}
+
+
+/* from sect end */
+
+
+/* footer sect css  */
+
+
+@media (min-width:320px) and (max-width: 991px){
+
+
+    .footer-icon a h2{
+        font-size: 24px !important;
+        margin-bottom: -150px;
+        margin-top: -80px;
+    }
+
+    .footer-icon a h2 span{
+        font-size: 24px !important;
+    }
+
+    .footer-sect{
+        height: 458px;
+    }
+    .footer-down-cnt{
+        margin-top: -100px;
+        position: relative;
+    }
+
+    .footer-social a{
+        padding: 8px 17px ;
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 10px;
+        margin-top: -50px;
+        position: absolute;
+    }
+
+    .footer-social .row p{
+        margin-top: -145px;
+        font-size: 15px;
+    }
+
+    .footer-social .row i{
+        margin-top: -3px;
+       
+    }
+
+
+}
+
+/* footer sect css end */

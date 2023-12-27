@@ -1,0 +1,920 @@
+:root{
+    --primery-color:#353535;
+    --secondry-color:#F8BC17;
+    --primery-font:'Poppins', sans-serif;
+    --text-color:#7A7A7A;
+}
+body{
+    font-family: var(--primery-font);
+    color: var(--primery-color);
+}
+.head{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--primery-color);
+    padding-bottom: 30px;
+    line-height: 10px;
+}
+
+.pera{
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+ul,ol{
+    list-style: none;
+    display: inline-block;
+
+}
+
+li{
+    display: inline-block;
+}
+
+ a{
+    text-decoration: none;
+    color: var(--primery-color);
+}
+
+.icon{
+    font-family: Potta One;
+    font-size: 28px;
+}
+.icon span{
+    color:var(--secondry-color) ;
+}
+
+nav ul li a{
+    position: relative;
+   font-size: 15px;
+   letter-spacing: 0.5px;
+   margin-right:20px ;
+   color: var(--primery-color);
+   
+    font-weight: 500;
+    line-height: 200%; /* 30px */
+}
+
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    background-color: #888;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+
+/* banner sect starts */
+
+.banner h4{
+    color: var(--primery-color);
+    
+    font-size: 24px;
+    
+    font-weight: 400;
+    
+}
+
+.banner h2{
+    color:var(--primery-color);
+
+font-size: 64px;
+
+font-weight: 700;
+ 
+}
+
+.banner p{
+    color: var(--primery-color);
+
+font-size: 20px;
+
+font-weight: 400;
+line-height: 180%; 
+}
+
+.button{
+    padding: 16px 45px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: var(--secondry-color);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 180%; /* 36px */
+    border: 1px solid var(--primaryColor);
+}
+
+
+.button.outline{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 16px 18px;
+}
+
+.social ul{
+    justify-content: start;
+    margin-left: -20px;
+}
+
+.social ul li a{
+   width: 40px;
+   height: 40px;
+   background-color: #F4F3F3;
+   display: inline-block;
+   border-radius: 50%;
+   text-align: center;
+   transition: 0.4s;
+}
+
+.social ul li a i{
+    margin-top: 12px;
+    
+
+}
+
+
+.social{
+    padding-top: 20px;
+   display: inline-block;
+}
+
+.social ul li a:hover{
+    fill: white;
+    background-color: var(--primery-color);
+    color: white;
+   
+}
+
+
+
+
+
+
+
+
+
+/* banner sect ends */
+
+
+/* about  */
+
+.about{
+    background: rgb(255,204,0);
+background: linear-gradient(90deg, rgba(255,204,0,1) 56%, rgba(241,241,241,1) 100%);
+position: relative;
+}
+
+.about-cnt h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-cnt p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.about-cnt a{
+    padding: 17px 44px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+
+.about-cnt img{
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+}
+/* about end */
+
+/* work start */
+
+#about{
+    background: linear-gradient(95deg, #FC0 -21.46%, #FFF5CB 112.13%);
+  }
+  
+  #about .container{
+    position: relative;
+  }
+  #about .circle{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+  }
+
+
+.work-card span img{
+    position: absolute;
+    top: 73px;
+    left: 145px;
+}
+
+.work-card{
+    position: relative;
+    text-align: center;
+}
+
+.work{
+    padding-top: 151px;
+}
+
+.work-card{
+ 
+ height: 367px;
+ border-radius: 20px;
+ 
+ padding-top: 55px;
+ transition: 0.5s;
+    }
+
+    .work-card:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+/* work end*/
+
+/* brand section css */
+
+.bgall-cnt{
+    background: rgb(255,204,0);
+    background: linear-gradient(90deg, rgba(255,204,0,1) 51%, rgba(241,241,241,1) 100%); 
+    border-radius: 30px;
+}
+
+.brand-img{
+    margin-bottom: -7px;
+}
+
+.brand-cnt img{
+    margin-top: -19px;
+    margin-left: 200px;
+}
+
+.brand-cnt h3{
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.brand-cnt p{
+    font-size: 18px;
+}
+
+.brand-cnt{
+padding-left: 100px;
+position: relative;
+}
+
+.brand-cnt a{
+    padding: 17px 38px;
+    border: 1px solid #353535;
+    border-radius: 20px;
+    
+}
+
+#branding{
+    padding-top: 100px;
+}
+
+.brand-cnt span img{
+    position: absolute;
+    top: -136px;
+    right: 140px;
+}
+
+#branding .brand-cnt i{
+    color: var(--primery-color);
+    margin-left: -10px;
+}
+/* brand section css end */
+
+/* help css */
+
+.help-card-icon i{
+    font-size: 22px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #55852F;
+    color: white;
+    padding-top: 19px;
+    padding-left: 16px;
+}
+
+.help-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 96px;
+}
+.help-card-icon{
+    
+    padding-top: 2px;
+    padding-left: 59px;
+}
+
+.help-card-cnt{
+    padding-top: 20px;
+
+}
+#help{
+    height: 650px;
+    padding-top: 100px;
+}
+
+.help-card-cnt h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.help-card-cnt p{
+    font-size: 12px;
+}
+
+.help-cnt{
+    text-align: right;
+    padding-top: 40px;
+}
+.help-cnt h2{
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+
+.help-cnt p{
+    font-weight: 400;
+    line-height: 190%;
+    font-size: 20px;
+    color: #888;
+}
+
+.help-cnt #list1{
+    padding-right: 35px;
+    text-align: left;
+    
+}
+
+.help-cnt #list2{
+   
+    text-align: left;
+    
+}
+
+#list1 h3,
+#list2
+ h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+#list1 p,
+#list2 p{
+    font-weight: 500;
+}
+
+/* help css end */
+
+/* MY WORK EXPERIENCE CSS  */
+    .experience h3{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 700;
+        padding-bottom: 100px;
+    }
+
+    .experience{
+        height: 800px;
+        padding-left: 100px;
+    }
+
+
+ 
+
+    .experience-icon{
+        border-right: 2px dashed #7A7A7A;
+        height: 168px;
+        position: relative;
+    }
+
+   
+    
+    .experience-icon::before{
+        content: '';
+        background-color: #fff;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 2px dashed #7a7a7a;
+        position: absolute;
+        top: -30px;
+        right: -16px;
+    }
+
+    .experience-icon::after{
+        content: '';
+        background-color: #52AB70;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        position: absolute;
+        top: -22px;
+        right: -8px;
+    }
+
+    .experience-cnt h3{
+        font-size: 24px;
+        font-weight: normal;
+        text-align: left;
+        padding-bottom: 0;
+    }
+
+    .experience-cnt p{
+        color: var(--text-color);
+        text-align: left;
+    }
+
+    .experience-cnt{
+        padding-left: 70px;
+    }
+
+    .experience-icon.yellow::after{
+        background-color: #FFD233;
+    }
+
+    .experience-icon.red::after{
+        background-color: #F17676;
+    }
+
+/* MY WORK EXPERIENCE CSS END */
+
+
+
+/* expert areas */
+
+
+.expert{
+    height: 600px;
+}
+
+.expart-cnt a{
+    padding: 10px 21px;
+    background-color: var(--secondry-color);
+    color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.expart-cnt p{
+    color: #7A7A7A;
+}
+
+.expart-cnt p.phw{
+    padding-bottom: 40px;
+}
+
+.expert a:hover{
+background-color: transparent;
+border: 1px solid #353535;
+color: var(--primery-color);
+}
+
+.expert a{
+    transition: 0.4s;
+}
+
+
+
+.skill_card h4{
+    color: #353535;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 180%; /* 32.4px */
+  margin-left: -400px;
+ display: inline-block;
+
+  }
+  
+  .skill_card .progressbar{
+    width: 100%;
+    max-width: 380px;
+    background-color: #D9D9D9;
+    height: 6px;
+    border-radius: 50px;
+    position: relative;
+    
+  }
+  
+  
+  .skill_card .progressbar .progress{
+    
+    width: 85%;
+    height: 100%;
+    border-radius: 50px;
+    background: #F16500;
+    position: relative;
+  
+  }
+  
+  
+  .skill_card  span{
+    position: absolute;
+   padding-left: 235px;
+    z-index: 99;
+    padding-top: 8px;
+  }
+
+  .skill_card .progress.progress-navy{
+    background-color: navy;
+    width: 75%;
+  }
+  .skill_card .progress.progress-purpel{
+    background-color: #700D60;
+    width: 80%;
+  }
+
+  .skill_card .progress.progress-blue{
+  width: 70%;
+  background-color: #234BDA;
+  }
+
+  .nav-link.progress-btn.active{
+    background-color: transparent;
+    color: var(--primery-color);
+    border: 2px solid #353535;
+  }
+  .education-card{
+    text-align: left;
+  }
+  .education-card h4{
+    padding: 10px 14px;
+    border-radius: 10px;
+    background-color: var(--primery-color);
+    color: white;
+    width: 35%;
+    font-weight: 700;
+  }
+
+  .education-card p{
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+
+/* expert areas ends */
+
+/* services sect  */
+
+.services .services-cnt{
+    text-align: center;
+    padding-top: 50px;
+}
+.services .services-cnt p{
+    color: var(--text-color);
+    padding-bottom: 100px;
+}
+
+.services .services-cnt h3{ 
+    margin-bottom: -20px;
+}
+
+.services .head{
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.services {
+    background-color: #FFF7D5;
+    height: 800px;
+}
+
+.services .service-card{
+    text-align: center;
+    background-color: #fff;
+    height: 422px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.services .service-card:hover{
+    transform: scale(1.2);
+    background-color: var(--secondry-color);
+    color: white;
+}
+.services .service-card img{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.services .service-card h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* services sect end */
+
+/* feedback sect css  */
+
+.feedback{
+    padding-top: 100px;
+    background-color: #FBFBFB;
+}
+
+.text{
+    color: var(--text-color);
+}
+
+.feedback .row{
+    padding-top: 50px;
+}
+
+.feedback-cnt h4{
+    font-size: 24px;
+}
+
+/* feedback sect css end */
+
+
+
+
+/* blog sect css */  
+
+.blog .head{
+    text-align: right;
+}
+
+.blog-upper-cnt{
+    display: flex;
+    margin-left: -60px;
+}
+
+.blog-upper-cnt p span{
+    padding-left: 100px;
+}
+
+
+.blog{
+    padding-top: 100px;
+}
+.blog-card .blog-cnt .blog-down-cnt{
+    margin-left: -40px;
+}
+
+
+.blog .blog-cnt i{
+    
+    padding-right: 10px;
+}
+
+.blog-card .blog-cnt .blog-upper-cnt span{
+   
+    margin-left: -100px;
+}
+
+.blog .blog-card .blog-cnt p{
+font-size: 12px;
+
+}
+
+.blog .blog-card .blog-cnt h5{
+    font-size: 18px;
+}
+
+.blog .blog-card .blog-cnt a{
+
+    display: flex;
+    padding-top: 80px;
+}
+
+.blog .blog-card .blog-cnt i{
+    padding-left: 20px;
+}
+
+.blog .blog-card{
+    padding-top: 100px;
+}
+/* blog sect css end */ 
+
+
+
+/* from sect  */
+
+.from .container{
+    height: 295px;
+    border-radius: 30px;
+    background: linear-gradient(95deg, #FC0 -21.46%, #FFF5CB 112.13%); 
+    
+}
+
+.from {
+    padding-top: 150px;
+    padding-bottom: 120px;
+}
+
+.from .from-cnt{
+    padding-top: 90px;
+    padding-left: 90px;
+}
+
+.from .from-cnt h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.from .from-cnt h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.from .from-cnt p{
+    font-size: 18px;
+}
+
+.from .from-main{
+    height: 82px;
+    border-radius: 30px;
+    background-color: white;
+    width: 455px;
+    margin-top: 100px;
+}
+
+.from .from-main-cnt{
+    color: var(--text-color);
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border: none;
+}
+
+.from .from-main-cnt input{
+    border: none;
+}
+
+.from .from-main-button{
+    background-color: #FF6565;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    border-radius: 30px;
+    padding-top: 30px;
+    padding-left: 60px;
+    height: 82px;
+    transition: 0.4s;
+}
+
+
+
+.from .from-main-button:hover{
+    background-color: var(--primery-color);
+    letter-spacing: 1px;
+}
+
+
+/* from sect end */
+
+
+
+/* footer sect css  */
+
+.footer-sect{
+    background-color: #575757;
+    padding-top: 100px;
+    height: 480px;
+}
+
+.footer-sect .footer-icon h2{
+    color: #FBFBFB;
+font-family: Potta One;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer-sect .footer-icon span{
+    color: #F8BC17;
+font-family: Potta One;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer-icon{
+    position: relative;
+}
+
+.footer-icon img{
+    display: inline-block;
+}
+
+.footer-icon .circle-for-footer{
+    position: absolute;
+    left: -59px;
+}
+
+.footer-icon .img-for-footer{
+    position: absolute;
+    top: 270px;
+    left: -310px;
+}
+
+.footer-icon p{ 
+    font-size: 18px;
+    color: #BBB9B9;
+    padding-top: 182px;
+    
+}
+
+.footer-icon p span{
+    color: white !important;
+    font-family:  sans-serif !important;;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+
+.footer-cnt h3{
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+    
+
+}
+.footer-cnt p{
+    color: #BBB9B9;
+    
+}
+.footer-down-cnt p{
+    color: #BBB9B9;
+    font-size: 18px;
+    
+    padding-top: 123px;
+}
+.footer-down-cnt p span{
+    color: white !important;
+    font-family:  sans-serif !important;;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+
+.footer-social a {
+    text-align: center;
+    padding: 15px 32px ;
+    border-radius: 20px;
+    background-color: var(--secondry-color);
+    color: white;
+    display: inline-block;
+    margin-left: 267px;
+}
+
+.footer-social p{
+    padding-top: 150px;
+    color: #BBB9B9;
+}
+
+.footer-social {
+    position: relative;
+}
+
+.footer-social .row i{
+    width: 40px;
+    height: 40px;
+    background-color: #F4F3F3;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.4s;
+    padding-top: 13px;
+    margin-right: 15px;
+    margin-top: 144px;
+    transition: 0.4s;
+}
+
+.footer-social .row i:hover{
+    color: white;
+    background-color: var(--primery-color);
+}
+
+.footer-social img{
+    position: absolute;
+    right: -78px;
+    bottom: 280px;
+}
+
+
+
+/* footer sect css end */
